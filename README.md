@@ -29,7 +29,7 @@ This CloudFormation template creates a basic networking setup in AWS, including 
    - **Logical ID**: `MyEC2Instance`
    - **Instance Type**: `t2.micro`
    - **AMI ID**: `ami-0b8c6b923777519db` (NOTE: Adjust to your region’s AMI)
-   - **Key Pair**: `dms-keypair` (Must be created in advance)
+   - **Key Pair**: `dms-keypair` 
    - **Network Configuration**:
      - Associates with public IP
      - Uses `MyEC2SecurityGroup` for security
